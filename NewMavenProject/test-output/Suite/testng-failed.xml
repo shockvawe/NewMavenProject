@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name=" Firefox test(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="MavenTestingProject.NewMavenProject.ParametersExample">
+        <methods>
+          <include name="testcase1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- MavenTestingProject.NewMavenProject.ParametersExample -->
+    </classes>
+  </test> <!--  Firefox test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
